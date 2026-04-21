@@ -9,8 +9,8 @@ body{
 /*le header*/
 
 nav{
-    display:none; /*permet de faire disaraitre une session qu'on ne veut pas voir*/
-    /*on pourra poser apres des medias queries*/
+    display:none; /*permet de faire dispraitre un element qu'on ne veut pas voir*/
+    /*on pourra poser après des medias query*/
 }
 
 
@@ -40,7 +40,7 @@ header i{
 h1{
     font-size:0.9em;
     text-align:center;
-    -webkit-text-stroke: 0.4px #e61919;
+    -webkit-text-stroke: 0.5px #fa0c0c;
     padding:10px;
 }
 
@@ -136,7 +136,7 @@ footer ul {
     }
     header  img:first-of-type {
         width:100%;
-        height:450px;
+        height:550px;
         object-fit:cover;
         object-position:center;
         
@@ -175,14 +175,15 @@ footer ul {
       height:600px;
       
     }
-
+     
     
 
     h1{
         position:absolute;
-        right:17%;
+        right:27%;
         top:50px;
         font-size:1.5em;
+        
     }
 
     .sectionAcceuill h5 {
@@ -213,6 +214,13 @@ footer{
     padding:50px;
     font-size:1.2em;
 }
+.sectionAcceuill img{
+  transition:transform 0.3s ease;
+}
 
+.sectionAcceuill img:hover{
+ transform: scale(0.9);
+ 
+}
 
 }
